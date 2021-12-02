@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    ​<h4> <label for="fname" class="required">Name</label></h4>
+    <input  type="text" id="fname" name="fname">
+    <label for="lname"></label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <h4><label for="mail" class="required">Email</label></h4>
+    <input type="text" id="mail" name="mail"><br><br>
+    <h4 class="required">Your Experience</h4>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<p>Overall, how would you rate experience with us? </p>
+
+<h4  class="required">How satisfied are you with</h4>
+<table class="table">
+    <tr >
+      <th></th>
+      <th>Very unsatisfied</th>
+      <th>Unsatisfied</th> 
+      <th>Neutral</th>
+      <th>Satisfied</th>
+      <th>Very satisfied</th>
+    </tr>
+    <tr>
+      <td>Purchase</td>
+      <td><input type="radio"  name="radQ5" value="5" id="q5" /></td>
+      <td><input type="radio"   name="radQ5" value="4" id="q4" /></td>
+      <td><input type="radio"  name="radQ5" value="3" id="q3"/></td>
+      <td><input type="radio"  name="radQ5" value="2" id="q2" /></td>
+      <td><input type="radio"  name="radQ5" value="1" id="q1"/></td>
+    </tr>
+    <tr>
+        <td>Service</td>
+        <td><input type="radio"  name="radQ4" value="6" id="q6" /></td>
+        <td><input type="radio"  name="radQ4" value="7" id="q7" /></td>
+        <td><input type="radio"  name="radQ4" value="8" id="q8"/></td>
+        <td><input type="radio"  name="radQ4" value="9" id="q9" /></td>
+        <td><input type="radio"  name="radQ4" value="10" id="q10"/></td>
+      </tr>
+      <tr>
+        <td>Company Overall</td>
+        <td><input type="radio"  name="radQ3" value="11" id="q11" /></td>
+        <td><input type="radio"  name="radQ3" value="12" id="q12" /></td>
+        <td><input type="radio"  name="radQ3" value="13" id="q13" /></td>
+        <td><input type="radio"  name="radQ3" value="14" id="q14" /></td>
+        <td><input type="radio"  name="radQ3" value="15" id="q15" /></td>
+      </tr>
+  </table> <br>
+
+  <h4  class="required">How likely are you to</h4>
+  <table class="table">
+    <tr >
+      <th></th>
+      <th>Very unlikely</th>
+      <th>Unlikely</th> 
+      <th>Neutral</th>
+      <th>Likely</th>
+      <th>Very Likely</th>
+    </tr>
+    <tr>
+      <td>Buy from us again</td>
+      <td><input type="radio"  name="radQ2" value="r5" id="qr5" /></td>
+      <td><input type="radio"   name="radQ2" value="r4" id="qr4" /></td>
+      <td><input type="radio"  name="radQ2" value="r3" id="qr3"/></td>
+      <td><input type="radio"  name="radQ2" value="r2" id="qr2" /></td>
+      <td><input type="radio"  name="radQ2" value="r1" id="qr1"/></td>
+    </tr>
+    <tr>
+        <td>Recommend our product to others</td>
+        <td><input type="radio"  name="radQ1" value="r6" id="qr6" /></td>
+        <td><input type="radio"  name="radQ1" value="r7" id="qr7" /></td>
+        <td><input type="radio"  name="radQ1" value="r8" id="qr8"/></td>
+        <td><input type="radio"  name="radQ1" value="r9" id="qr9" /></td>
+        <td><input type="radio"  name="radQ1" value="r10" id="qr10"/></td>
+      </tr>
+      <tr>
+        <td>Recommend our company to others</td>
+        <td><input type="radio"  name="radQ" value="r11" id="qr11" /></td>
+        <td><input type="radio"  name="radQ" value="r12" id="qr12" /></td>
+        <td><input type="radio"  name="radQ" value="r13" id="qr13" /></td>
+        <td><input type="radio"  name="radQ" value="r14" id="qr14" /></td>
+        <td><input type="radio"  name="radQ" value="r15" id="qr15" /></td>
+      </tr>
+  </table><br>
+
+  <h4>Additional comments or suggestions</h4>
+  <div >
+    <textarea name="comments" id="comments" class="comment" rows="20" cols="30"></textarea>
+    </div>
+    <input type="button" value="Submit">
+</body>
+</html>
